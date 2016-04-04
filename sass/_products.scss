@@ -1,0 +1,216 @@
+.subpage-slider{
+	width:100%;
+	height:400px;
+	position:relative;
+}
+
+.quadrant-slider{
+	background: url('../images/quadrant-slider.jpg') no-repeat;
+	background-size: cover;
+	background-position:center;
+}
+
+.transformpv-slider{
+	background: url('../images/transform-slider.jpg') no-repeat;
+	background-size: cover;
+	background-position:center;
+}
+
+.coherint-slider{
+	background: url('../images/coherint-slider.jpg') no-repeat;
+	background-size: cover;
+	background-position:center;
+}
+
+.transfhir-slider{
+	background: url('../images/transfhir-slider.jpg') no-repeat;
+	background-size: cover;
+	background-position:center;
+}
+
+.axelint-slider{
+	background: url('../images/axelint-slider.jpg') no-repeat;
+	background-size: cover;
+	background-position:center;
+}
+
+.quadrant-screen, .transformpv-screen{
+	width:400px;
+	height:248px;
+	position:absolute;
+	bottom:-15px;
+}
+
+.slider-txt{
+	font-family: $vitrana_font_regular;
+	color:$vitrana_dark_gray;
+	margin-left:25px;
+	margin-top:50px;
+	margin-right:25px;
+	font-size:28px; 
+	width:65%; 
+	@media screen and (max-width: $break-medium){
+		font-size:24px; 
+		width:65%; 
+	}
+}
+
+.transformpv-slider-txt{
+	color:$vitrana_blue;
+}
+
+.transformpv-features-img, .transformpv-overview-img{
+	margin-top:50px;
+}
+
+
+.vitrana-brand{
+   color:$vitrana_green;
+}
+
+sup{
+	font-size:40%;
+	vertical-align: middle;
+}
+
+.products-submenu {
+	margin-top: 75px;
+	ul{
+		margin:0;
+		padding:0;
+		li{
+			display:block;
+			margin-bottom:10px;
+			a{
+				font-family: $vitrana_font_regular;
+				color:$vitrana_darker_gray;
+				text-decoration: none;
+				&:hover, &.selected{
+					color:$vitrana_dark_blue;
+				}
+			}
+			@media screen and (max-width: $break-medium){
+				display:inline-block;
+				margin-bottom:0;
+				margin-right:20px;
+			}
+		}
+	}
+}
+
+.products-submenu-stick{
+	position:fixed;
+	z-index:10000;
+	top:150px;
+}
+
+.quadrant-section, .transformpv-section{
+	width:100%;
+	padding:20px 0;
+}
+
+.section-content{
+	margin:50px 0;
+	font-family: $vitrana_font_light;
+	font-size: 18px;
+	color:black;
+	.section-title{
+		color: $vitrana_blue;
+	}
+	ul{
+		margin:0;
+		padding-left:20px;
+		li{
+			list-style-type: disc;
+			margin-bottom:20px
+		}
+	}	
+}
+
+
+.quadrant-overview-img{
+	padding-top:25px;
+}
+
+.products-section__one{
+	background-color: white;
+	h2{
+		color:$vitrana_blue;
+	}
+}
+
+.products-section__two{
+	background-color: $vitrana_green;
+
+	.products-submenu {
+		ul li a{
+			color:$vitrana_light_gray;
+			&:hover, &.selected{
+				color:$vitrana_light_green;
+			}
+		}
+	}
+
+	.section-content{
+		h2{
+			color:$vitrana_light_gray;
+		}
+		ul {
+			li{
+				color:$vitrana_light_gray;
+			}
+		}
+	}
+
+}
+
+.products-section__three{
+	.section-content{
+		h2{
+			color:$vitrana_dark_blue;
+		}
+	}
+}
+
+.products-section__four{
+	background: url('../images/analytics-bg.jpg') fixed no-repeat;
+	background-size: cover;
+	padding:0;
+	.redbg{
+		background-color: rgba(60,20,15,.2);
+		width:100%;
+	}
+	.products-submenu {
+		ul li a{
+			color:$vitrana_light_gray;
+			&:hover, &.selected{
+				color:$vitrana_light_green;
+			}
+		}
+	}
+	.section-content{
+		h2{
+			color:$vitrana_light_gray;
+		}
+		ul {
+			li{
+				color:$vitrana_light_gray;
+			}
+		}
+	}
+}
+
+.products-section__three{
+	h2{								
+	color:$vitrana_blue;			
+	}								
+}
+
+.full-width-pic{
+	width:100%;		
+	margin:50px 0;	
+}
+
+.menu-wrap{
+}
+

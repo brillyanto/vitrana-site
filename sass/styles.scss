@@ -1,0 +1,33 @@
+@import 'compass';
+
+@import 'fonts';
+
+$vitrana_blue : #1D417C;
+$vitrana_green : #76943e;
+$vitrana_light_green: #a7d966;
+$vitrana_red : #ed1c22;
+$vitrana_dark_red: #3c140f;
+$vitrana_light_gray : #dfdfdf;
+$vitrana_dark_gray : #c8c8c8;
+
+$vitrana_dark_blue : darken(#1D417C, 10%);
+$vitrana_darker_gray : #666d72;
+
+$vitrana_font_regular: ProximaNovaRegular;
+$vitrana_font_bold 	 : ProximaNovaBold;
+$vitrana_font_italic : ProximaNovaItalic;
+$vitrana_font_light  : ProximaNovaLight;
+
+$break-small: 320px;
+$break-medium: 990px;
+$break-large:1200px;
+
+@import 'header';
+
+@import 'body';
+
+@import 'footer';
+
+@import 'products';
+
+@import 'media-queries';
