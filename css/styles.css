@@ -498,11 +498,7 @@ sup {
   vertical-align: middle;
 }
 
-/* line 76, ../sass/_products.scss */
-.products-submenu {
-  margin-top: 75px;
-}
-/* line 78, ../sass/_products.scss */
+/* line 77, ../sass/_products.scss */
 .products-submenu ul {
   margin: 0;
   padding: 0;
@@ -546,101 +542,118 @@ sup {
 
 /* line 112, ../sass/_products.scss */
 .section-content {
-  margin: 50px 0;
   font-family: ProximaNovaLight;
   font-size: 18px;
   color: black;
 }
-/* line 117, ../sass/_products.scss */
+/* line 116, ../sass/_products.scss */
 .section-content .section-title {
   color: #1D417C;
 }
-/* line 120, ../sass/_products.scss */
+/* line 119, ../sass/_products.scss */
 .section-content ul {
   margin: 0;
   padding-left: 20px;
 }
-/* line 123, ../sass/_products.scss */
+/* line 122, ../sass/_products.scss */
 .section-content ul li {
   list-style-type: disc;
   margin-bottom: 20px;
 }
 
-/* line 131, ../sass/_products.scss */
+/* line 130, ../sass/_products.scss */
 .quadrant-overview-img {
   padding-top: 25px;
 }
 
-/* line 135, ../sass/_products.scss */
+/* line 134, ../sass/_products.scss */
 .products-section__one {
   background-color: white;
 }
-/* line 137, ../sass/_products.scss */
+/* line 136, ../sass/_products.scss */
 .products-section__one h2 {
   color: #1D417C;
 }
 
-/* line 142, ../sass/_products.scss */
+/* line 141, ../sass/_products.scss */
 .products-section__two {
   background-color: #76943e;
 }
-/* line 146, ../sass/_products.scss */
+/* line 145, ../sass/_products.scss */
 .products-section__two .products-submenu ul li a {
   color: #dfdfdf;
 }
-/* line 148, ../sass/_products.scss */
+/* line 147, ../sass/_products.scss */
 .products-section__two .products-submenu ul li a:hover, .products-section__two .products-submenu ul li a.selected {
   color: #a7d966;
 }
-/* line 155, ../sass/_products.scss */
+/* line 154, ../sass/_products.scss */
 .products-section__two .section-content h2 {
   color: #dfdfdf;
 }
-/* line 159, ../sass/_products.scss */
+/* line 158, ../sass/_products.scss */
 .products-section__two .section-content ul li {
   color: #dfdfdf;
 }
 
-/* line 169, ../sass/_products.scss */
+/* line 168, ../sass/_products.scss */
 .products-section__three .section-content h2 {
   color: #132b53;
 }
 
-/* line 175, ../sass/_products.scss */
+/* line 174, ../sass/_products.scss */
 .products-section__four {
   background: url("../images/analytics-bg.jpg") fixed no-repeat;
   background-size: cover;
   padding: 0;
 }
-/* line 179, ../sass/_products.scss */
+/* line 178, ../sass/_products.scss */
 .products-section__four .redbg {
   background-color: rgba(60, 20, 15, 0.2);
   width: 100%;
 }
-/* line 184, ../sass/_products.scss */
+/* line 183, ../sass/_products.scss */
 .products-section__four .products-submenu ul li a {
   color: #dfdfdf;
 }
-/* line 186, ../sass/_products.scss */
+/* line 185, ../sass/_products.scss */
 .products-section__four .products-submenu ul li a:hover, .products-section__four .products-submenu ul li a.selected {
   color: #a7d966;
 }
-/* line 192, ../sass/_products.scss */
+/* line 191, ../sass/_products.scss */
 .products-section__four .section-content h2 {
   color: #dfdfdf;
 }
-/* line 196, ../sass/_products.scss */
+/* line 195, ../sass/_products.scss */
 .products-section__four .section-content ul li {
   color: #dfdfdf;
 }
 
-/* line 204, ../sass/_products.scss */
+/* line 203, ../sass/_products.scss */
 .products-section__three h2 {
   color: #1D417C;
 }
 
-/* line 209, ../sass/_products.scss */
+/* line 208, ../sass/_products.scss */
 .full-width-pic {
   width: 100%;
   margin: 50px 0;
+}
+
+@media screen and (max-width: 990px) {
+  /* line 213, ../sass/_products.scss */
+  .menu-wrap {
+    height: 60px;
+    padding-left: 30px;
+  }
+}
+
+/* line 220, ../sass/_products.scss */
+.product-section-row {
+  padding: 50px 0;
+}
+
+/* line 224, ../sass/_products.scss */
+.product-logo {
+  padding-top: 100px;
 }

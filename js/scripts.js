@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	$('#main-header').wrap("<div id=\"header-wrapper\"></div>");
 	var headerHeight = $('#main-header').outerHeight();
-	console.log(headerHeight);
+		console.log(headerHeight);
 	$('#header-wrapper').height(headerHeight);	
 
 	$(window).resize(function(){
@@ -14,8 +14,7 @@ $(document).ready(function(){
 	//	$(this).append("<div class=\"enabled\"></div>");
 	//});
 
-	$(".products-submenu").wrap("<div class=\"menu-wrap col-md-3\"></div>");
-	$(".products-submenu").css('height', $(".products-submenu").outerHeight+"px");
+	$(".products-submenu").wrap("<div class=\"menu-wrap col-md-3\">&nbsp;</div>");
 
 	$(window).scroll(
 
@@ -60,8 +59,8 @@ $(document).ready(function(){
 			//	$("#products-submenu").addClass('products-submenu-stick');
 			//} else if(win_top < nav_top) {
 			//	$("#products-submenu").removeClass('products-submenu-stick');
-			//}
 		}
+			//}
 	);
 
 	//function resetLinks(){
